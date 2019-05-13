@@ -1,0 +1,9 @@
+- link:
+   ~/.dotfiles: ''
+   ~/.zshrc: zsh/zshrc
+   ~/.oh-my-zsh: .oh-my-zsh/
+   ~/.hyper.js: hyper/hyper.js
+
+- shell:
+   - sh homebrew/install.sh
+   - chsh -s $(which zsh)
